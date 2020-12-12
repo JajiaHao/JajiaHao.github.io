@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>会计小白入门学习笔记</title>
+    <url>/posts/cpa/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/JajiaHao/image/cpa/kj-1.png"></p>
+]]></content>
+      <categories>
+        <category>CPA</category>
+        <category>会计</category>
+      </categories>
+      <tags>
+        <tag>会计</tag>
+        <tag>CPA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>大数据离线数仓项目学习笔记</title>
     <url>/posts/hadoop/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="离线数仓项目"><a href="#离线数仓项目" class="headerlink" title="离线数仓项目"></a>离线数仓项目</h2><h3 id="一、数据仓库概念"><a href="#一、数据仓库概念" class="headerlink" title="一、数据仓库概念"></a>一、数据仓库概念</h3><h3 id="二、项目需求及架构设计"><a href="#二、项目需求及架构设计" class="headerlink" title="二、项目需求及架构设计"></a>二、项目需求及架构设计</h3><h3 id="三、数据生成模块"><a href="#三、数据生成模块" class="headerlink" title="三、数据生成模块"></a>三、数据生成模块</h3><h4 id="3-1-服务器和-JDK-准备"><a href="#3-1-服务器和-JDK-准备" class="headerlink" title="3.1 服务器和 JDK 准备"></a>3.1 服务器和 JDK 准备</h4><h5 id="3-1-1-配置IP、主机名"><a href="#3-1-1-配置IP、主机名" class="headerlink" title="3.1.1    配置IP、主机名"></a>3.1.1    配置IP、主机名</h5><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">[jajiahao@hadoop102]$</span><span class="bash"> vim /etc/sysconfig/network-scripts/ifcfg-ens33</span></span><br><span class="line"><span class="meta">[jajiahao@hadoop102]$</span><span class="bash"> hostnamectl --static set-hostname hadoop102</span></span><br><span class="line"><span class="meta">[jajiahao@hadoop102]$</span><span class="bash"> vim /etc/hosts</span></span><br><span class="line"><span class="meta">[jajiahao@hadoop102]$</span><span class="bash"> vim /etc/sudoers(jajiahao  ALL=(ALL)   NOPASSWD:ALL)</span></span><br></pre></td></tr></table></figure>
@@ -317,20 +331,6 @@
         <tag>Hadoop</tag>
         <tag>Java</tag>
         <tag>数仓</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>会计小白入门学习笔记</title>
-    <url>/posts/cpa/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/JajiaHao/image/cpa/kj-1.png"></p>
-]]></content>
-      <categories>
-        <category>CPA</category>
-        <category>会计</category>
-      </categories>
-      <tags>
-        <tag>会计</tag>
-        <tag>CPA</tag>
       </tags>
   </entry>
 </search>
